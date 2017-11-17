@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM java:8-jdk
 
 WORKDIR /home/apps/
 ADD target/testcpe-1.0.0.jar .
